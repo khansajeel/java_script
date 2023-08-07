@@ -16,3 +16,22 @@ else{
 }
 
 console.log("are you getting a dl:---->", (a>18?"yes":"no"));
+
+
+let age2 = prompt("What is your age?")
+switch (age2) {
+  case '12':
+    console.log("Your age is 12")
+    break
+  case '13':
+    console.log("Your age is 13")
+    break
+  case '14':
+    console.log("Your age is 14")
+    break
+  case '15':
+    console.log("Your age is 15")
+    break
+  default:
+    console.log("Your age is not special")
+}
